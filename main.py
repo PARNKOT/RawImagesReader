@@ -6,7 +6,7 @@ import argparse
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("-d", "--dir", type=str, default="snapshot", help="Patho to the dir with raw images")
+    ap.add_argument("-d", "--dir", type=str, default="snapshot", help="Путь к директории с изображениями")
     ap.add_argument("-r", "--rows", type=int, default=1024, help="Высота изображения")
     ap.add_argument("-c", "--columns", type=int, default=1280, help="Ширина изображения")
     ap.add_argument("-f", "--fps", type=int, default=25, help="Скорость воспроизведения кадров")
